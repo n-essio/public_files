@@ -1,0 +1,133 @@
+:root {
+  --primary: #2e2e2e;
+  --secondary: #ffbb33;
+  --yellow: #ffbb33;
+  --white: #FFFFFF;
+  --black: #111111;
+  --gray: #989898;
+  --blue: #060f8c;
+  --pink: #d51c9c;
+  --background: #f6f6f6;
+}
+
+
+body {
+    background: var(--background) !important;
+
+}
+
+
+body .wrapper {
+  padding: 80px 20px 20px;
+}
+
+
+
+
+ 	/* NAVBAR TOP */
+
+
+body .navbar-top .openbtn {
+   background: var(--white) !important;
+
+}
+
+
+body .navbar-top {	
+  background: var(--yellow) !important;
+}
+
+
+
+body .navbar-top .logo-wrapper {
+  top: 0px !important;
+  height: 50px !important;
+  position: relative !important;
+   /*background: var(--white) !important;*/
+   position: relative !important;
+}
+
+
+ body .navbar-top .logo-wrapper .logo {
+  position: absolute !important;
+  top: 0 !important;
+  bottom: 0 !important;
+  margin: auto 0 !important;
+}
+
+body .navbar-top .logo-wrapper .logo img {
+ position: absolute !important;
+  top: 0 !important;
+  bottom: 0 !important;
+  margin: auto 0 !important;
+  max-height: 50px !important;
+}
+
+
+
+body .navbar-top h4 {
+  color: var(--black) !important;
+
+}
+
+
+
+body .navbar-top .commessa-wrapper {
+  top: 6px !important;
+}
+
+body .navbar-top .commessa-wrapper .commessa span {
+  /* color: var(--white) !important;*/
+
+}
+
+body .navbar-top .p-button.p-button-home {
+  color: var(--white) !important;
+  background: var(--gray) !important;
+
+}
+
+
+ 	/* SIDEBAR */
+
+body .sidebar .p-accordion .p-accordion-header:not(.p-disabled).p-highlight .p-accordion-header-link {
+   background: var(--secondary) !important;
+}
+
+
+body .navbar-top .user-menu li {
+  color: var(--white) !important;
+
+}
+
+body .navbar-top .user-menu li a {
+  color: var(--white) !important;
+}
+
+
+.p-datatable .p-datatable-thead tr th.p-sortable-column .p-sortable-column-icon {
+  color: var(--secondary) !important;
+}
+
+.p-datatable .p-datatable-tbody tr td .p-button.p-button-icon-only {
+   background: var(--primary) !important;
+  color: var(--white) !important;
+}
+
+
+.p-paginator .p-paginator-pages .p-paginator-page.p-highlight {
+  border-color: var(--secondary) !important;
+  color: var(--secondary) !important;
+}
+
+.p-button.p-button-primary {
+   color: var(--black) !important;
+   background: var(--white) !important;
+   border-color: var(--black) !important;
+
+}
+.p-button.p-button-secondary {
+   color: var(--white) !important;
+   background: var(--yellow) !important;
+   border-color: var(--yellow) !important;
+}
